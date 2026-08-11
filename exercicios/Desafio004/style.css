@@ -1,0 +1,145 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'MinhaFontePersonalizada';
+  src: url('fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-color: #84E1AD;
+    height: 100%;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C37, #3CD883);
+    font-weight: bold;
+    padding: 20px;
+}
+
+section{
+    width: 950px;
+    margin: auto; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 0px 1px;
+}
+h1 {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    text-align: left;
+}
+
+
+a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 7px;
+}
+
+a:hover{
+    color: #2FA866;
+    background-color: white;
+
+
+}
+
+h3 {
+    color: #276643;
+    font-family: 'MinhaFontePersonalizada';
+    padding: 5px;
+    }
+
+
+h4 {
+    color: #276643;
+    background-image: linear-gradient(to right, #C5EBD6, #FFFFFF);
+    font-family: 'MinhaFontePersonalizada';
+   
+    padding: 5px;
+    
+}
+
+h5 {
+    color: white;
+    background-color: #2FA866;
+    padding: 10px;
+}
+
+p {
+    text-indent: 22px;
+    text-align: justify;
+    margin: 5px
+}
+
+footer>p {
+    background-color: #1A5C37;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.imagens{
+  display: flex;
+  justify-content: center; 
+  width: 100%;      
+}
+
+.imagemAndroid{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+ .video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    
+ }
+
+ .esquerda{
+    display: inline-block;
+    justify-content: left;
+    width: 50%;
+    margin-left: 10px;
+ }
+
+ .direita{
+    display: inline-block;
+    justify-content: right;
+ }
+
+ #extras{
+    background-color: #C5EBD6;
+ }
