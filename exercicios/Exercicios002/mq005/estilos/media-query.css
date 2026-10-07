@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    /* Esconde o botão ☰ */
+    span#burguer {
+        display: none;
+    }
+
+    /* Mostra o menu */
+    menu {
+        display: block;
+    }
+
+    /* Coloca as opções lado a lado */
+    menu>ul>li {
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+} 
